@@ -9,9 +9,14 @@
 
 [操作系统引导](./1-boot/OS-booting.md)
 
-## 2-
+## 2-系统调用
 
+[操作系统引导](./2-syscall/syscall.md)
 
+## 相关
+
+- [操作系统之基础 - 网易云课堂](http://mooc.study.163.com/learn/HIT-1000002004?tid=1000002003#/learn/announce)
+- [操作系统原理与实践 - 实验楼](https://www.shiyanlou.com/courses/115)
 
 ## 参考
 
