@@ -175,7 +175,7 @@ int main(int argc, char ** argv)
 		i += c;
 	}
 
-	if(strcmp(argv[3], "none") != 0){
+	if(argv[3] == "none"){
 		if ((id=open(argv[3],O_RDONLY,0))<0)
 				die("Unable to open 'system'");
 		//	if (read(id,buf,GCC_HEADER) != GCC_HEADER)

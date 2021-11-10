@@ -84,7 +84,7 @@ ok_load_setup:
 	xor	bh,bh			! 页号bh=0
 	int	0x10
 	
-	mov	cx,#73
+	mov	cx,#97
 	mov	bx,#0x0007		! page 0, attribute 7 (normal) 页号BH=0 属性BL=7正常显示
 	mov	bp,#msg1		! ES:BP要显示的字符串地址
 	mov	ax,#0x1301		! write string, move cursor AH=13显示字符串 AL=01光标跟随移动
@@ -103,11 +103,11 @@ sectors:
 
 msg1:
 	.byte 13,10
-	.ascii "---------------------"
+	.ascii "-----------------------------"
 	.byte 13,10
-	.ascii "| QiuOS is booting! |"
+	.ascii "| Loveleaves'OS is booting! |"
 	.byte 13,10
-	.ascii "---------------------"
+	.ascii "-----------------------------"
 	.byte 13,10,13,10
 
 .org 508
