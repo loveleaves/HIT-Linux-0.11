@@ -13,6 +13,12 @@
 
 [操作系统引导](./2-syscall/syscall.md)
 
+## 3-进程运行轨迹的跟踪与统计
+
+[进程运行轨迹的跟踪与统计](./3-processTrack/3-processTrack.md)
+
+
+
 ## 相关
 
 - [操作系统之基础 - 网易云课堂](http://mooc.study.163.com/learn/HIT-1000002004?tid=1000002003#/learn/announce)
